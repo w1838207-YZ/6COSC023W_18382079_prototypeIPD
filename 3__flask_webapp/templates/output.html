@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+    <title>Flask - Output Page</title>
+{% endblock %}
+
+
+{% block content %}
+    <h1>FYP IPD Prototype - Output Page for Flask Webapp!</h1>
+
+    {% if value_pass==0 %}
+        <p>This web app's machine learning model has predicted that your image upload is a fake image / a deepfake.</p>
+    {% elif value_pass==1 %}
+        <p>This web app's machine learning model has predicted that your image upload is a real image / authentic.</p>
+    {% endif %}
+{% endblock %}

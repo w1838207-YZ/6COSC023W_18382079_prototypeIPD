@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+    <title>Flask - Upload Fail</title>
+{% endblock %}
+
+
+{% block content %}
+    <h1>Faulty Attempt - File Upload</h1>
+
+    <p>Uploading has failed, because your upload is not a '.jpg' file.</p>
+    <p>To try again, please return to this URL:  http://127.0.0.1:5000/upload</p>
+{% endblock %}

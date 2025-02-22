@@ -1,0 +1,7 @@
+1__scripts_for_random_sample_from_dataset/__pycache__
+
+2__notebook_for_ML_classification_model/.ipynb_checkpoints
+
+3__flask_webapp/.venv
+3__flask_webapp/__pycache__
+3__flask_webapp/static/files/*
